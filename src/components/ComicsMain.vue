@@ -18,7 +18,9 @@
         background-color: black;
         padding: 5rem;
         display: flex;
-      
+        height: 150px;
+        position: relative;
+        z-index: 2;
     }
 
 </style>

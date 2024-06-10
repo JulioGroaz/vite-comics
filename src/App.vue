@@ -4,6 +4,7 @@ import ComicsMain from './components/ComicsMain.vue';
 import ComicsFooter from './components/ComicsFooter.vue';
 
 
+
 export default{
   data(){
     return{

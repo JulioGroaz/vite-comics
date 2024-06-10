@@ -47,7 +47,7 @@
     .header-container{
         @include row-list;
         width: 100%;
-        height: 200px;
+        height: 150px;
         padding-right: 5rem;
         padding-left: 5rem;
 
@@ -57,6 +57,9 @@
     }
     li{
         padding: 1rem;
+    }
+    .img{
+        
     }
 
 </style>
