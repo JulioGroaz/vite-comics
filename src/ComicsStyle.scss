@@ -1,0 +1,11 @@
+$primary-color:#0282f9;
+@mixin row-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: .5rem;
+}
+
+
