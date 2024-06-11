@@ -7,16 +7,43 @@
     <footer class="footer-info">
         <section class="list-services">
 
-            <div>
-                <section>
+            <div class="list-row">
+                <section >
                     <ul>
                         <li>
-                            bla
+                            <h2>DC COMICS</h2>
+                        </li>
+                        <li class="list-services-style">
+                            characters
+                        </li>
+                        <li class="list-services-style">
+                            Comics 
+                        </li>
+                        <li class="list-services-style">
+                            Movies
+                        </li>
+                        <li class="list-services-style">
+                            TV
+                        </li>
+                        <li class="list-services-style">
+                            Games
+                        </li>
+                        <li class="list-services-style">
+                            Videos
+                        </li>
+                        <li class="list-services-style">
+                            News
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            bla
+                            <h2>SHOP</h2>
+                        </li>
+                        <li class="list-services-style">
+                            Shop DC
+                        </li>
+                        <li class="list-services-style">
+                            Shop DC Collectibles
                         </li>
                     </ul>
                 </section>
@@ -24,7 +51,40 @@
                 <section>
                     <ul>
                         <li>
-                            bla
+                            <h2>DC</h2>
+                        </li>
+                        <li class="list-services-style">
+                            Term of Use
+                        </li>
+                        <li class="list-services-style">
+                            Privacy Policy (New)
+                        </li>
+                        <li class="list-services-style">
+                            Ad Choices
+                        </li>
+                        <li class="list-services-style">
+                            Advertising
+                        </li>
+                        <li class="list-services-style">
+                            Jobs
+                        </li>
+                        <li class="list-services-style">
+                            Subscriptions
+                        </li>
+                        <li>
+
+                        </li>
+                        <li class="list-services-style">
+
+                        </li>
+                        <li class="list-services-style">
+
+                        </li>
+                        <li class="list-services-style">
+
+                        </li>
+                        <li class="list-services-style">
+
                         </li>
                     </ul>
                 </section>
@@ -32,7 +92,22 @@
                 <section>
                     <ul>
                         <li>
-                            bla
+                            <h2>SITES</h2>
+                        </li>
+                        <li class="list-services-style">
+                            DC
+                        </li>
+                        <li class="list-services-style">
+                            MAD magazine
+                        </li>
+                        <li class="list-services-style">
+                            DC Kids
+                        </li>
+                        <li class="list-services-style">
+                            DC Universe
+                        </li>
+                        <li class="list-services-style">
+                            DC Power Visa
                         </li>
                     </ul>
                 </section>
@@ -87,11 +162,15 @@
     }
     li{
         padding: .5rem;
+        list-style: none;
     }
     button{
         border-radius: 0;
         padding: .5rem;
         border: 2px solid $primary-color;
+        background-color: #303030;
+        color: white;
+        font-weight: bold;
     }
     .footer-info{
         background-image: url(/img/footer-db.jpg);
@@ -100,11 +179,12 @@
     }
     .list-services{
         @include row-list;
-        height: 300px;
-    
+        height: 500px;
+        background-image: url;
+        background-color: #1e1e1e;
     }
    .logo-bg{
-        height: 500px;
+        height: 600px;
         width: auto;
         padding-right: 5rem;
         overflow: hidden;
@@ -113,6 +193,20 @@
     }
     h3{
         color: $primary-color;
+    }
+    .list-row{
+        @include row-list;
+        display: flex;
+        align-items: start;
+        padding-left: 5rem;
+        
+    }
+    h2{
+        color: white;
+
+    }
+    .list-services-style{
+        color: #524f4f;
     }
  
 

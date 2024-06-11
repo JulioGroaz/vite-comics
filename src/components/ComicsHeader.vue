@@ -58,8 +58,8 @@
     li{
         padding: 1rem;
     }
-    .img{
-        
+    li:hover {
+        color: $primary-color;
     }
 
 </style>
